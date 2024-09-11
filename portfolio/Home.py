@@ -9,9 +9,10 @@ with col1:
 
 with col2:
     st.title("Balakrishna Thumma")
-    content = """Seasoned Senior Software Engineer with 9 years of experience in full-stack development, project management, and system optimization. Proficient in PHP, Laravel, YII,  NodeJs, and front-end technologies like VueJs, and React.js; adept at automating processes and enhancing software functionality, seeking a Senior Software Engineer role to leverage expertise in developing robust solutions and leading technical teams
+    content = """Hi, I am Balakrishna Thumma, and I am a Seasoned Senior Software Engineer with 9 years of experience in full-stack development, project management, and system optimization. Proficient in PHP, Laravel, YII,  NodeJs, and front-end technologies like VueJs, and React.js; adept at automating processes and enhancing software functionality, seeking a Senior Software Engineer role to leverage expertise in developing robust solutions and leading technical teams
     """  
     st.info(content)  
+
 
 message = """The date you became a resident of Canada is the date you established significant residential ties in Canada. This date is usually when you arrived in Canada.
 Significant residential ties include"""   
