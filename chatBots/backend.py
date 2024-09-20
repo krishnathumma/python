@@ -3,17 +3,18 @@ import openai
 
 class Chatbot:
     def __init__(self):
+       pass
 
-       
     def get_response(self, user_input):
-        response = openai.Completion.create(
-            engine="gpt-3.5-turbo-instruct",
-            prompt=user_input,
-            max_tokens=7,
-            temperature=0
-        ).choices[0].text
-
-        return response
+        pass
+        # response = openai.Completion.create(
+        #     engine="gpt-3.5-turbo-instruct",
+        #     prompt=user_input,
+        #     max_tokens=7,
+        #     temperature=0
+        # ).choices[0].text
+        #
+        # return response
 
 
 if __name__ == "__main__":
