@@ -3,8 +3,8 @@ import openai
 
 class Chatbot:
     def __init__(self):
+       openai.api_key = "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"
 
-       
     def get_response(self, user_input):
         response = openai.Completion.create(
             engine="gpt-3.5-turbo-instruct",
